@@ -7,7 +7,8 @@ let package = Package(
         Target(name: "Run", dependencies: ["App"]),
     ],
     dependencies: [
-        .Package(url: "https://github.com/vapor/vapor.git", majorVersion: 2)
+        .Package(url: "https://github.com/vapor/vapor.git", majorVersion: 2),
+        .Package(url: "https://github.com/vapor/fluent-provider.git", majorVersion: 1),
     ],
     exclude: [
         "Config",
@@ -17,3 +18,4 @@ let package = Package(
         "Resources",
     ]
 )
+

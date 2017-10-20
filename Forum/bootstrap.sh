@@ -1,8 +1,8 @@
 #!/bin/sh
-mkdir /tmp/vapor
-cd /tmp/vapor
-ln -sv /vapor/Package.swift Package.swift
-ln -sv /vapor/Sources Sources
-ln -sv /vapor/Config Config
-vapor build
-vapor run serve
+mkdir /tmp/Forum
+cd /tmp/Forum
+ln -sv /vapor/Forum/Package.swift Package.swift
+ln -sv /vapor/Forum/Sources Sources
+ln -sv /vapor/Forum/Config Config
+ln -sv /vapor/Forum/Tests Tests
+ln -sv /vapor/Forum/Public Public
